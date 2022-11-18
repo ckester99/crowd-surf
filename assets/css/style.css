@@ -1,0 +1,31 @@
+:root {
+  --dark-teal: #18978F;
+  --light-teal: #54BAB9;
+/* DARK MODE */
+  --dark-grey: #2C3639;
+  --light-grey: #3F4E4F;
+  --light-word-color: #E9DAC1;
+/* LIGHT MODE */
+  --dark-beige: #E9DAC1;
+  --light-beige: #F7ECDE;
+  --dark-word-color: #2C3639;
+}
+* {
+  background-color: var(--dark-grey);
+  
+}
+nav {
+  background-color: var(--dark-teal);
+  padding: 3rem;
+  text-align: center;
+  font-weight: bolder;
+}
+
+div button {
+  background-color: var(--light-teal);
+  border-color: #2C3639;
+  padding: 1rem;
+  margin: 1.5rem;
+  border-radius: 25px;
+ }
+
