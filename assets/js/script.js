@@ -4,9 +4,9 @@ $ .ajax({
     async:true,
     dataType: "json",
     success: function(json) {
-                console.log(json);
-                // Parse the response.
-                // Do other things.
+        console.log(json);
+            // Parse the response.
+        // console.log(response.status); 
              },
     error: function(xhr, status, err) {
                 // This time, we do not end up here!
@@ -14,7 +14,3 @@ $ .ajax({
   });
 
 
-//   https://app.ticketmaster.com/discovery/v2/events.json?keyword=coldwarkids&countryCode=US&apikey=hMNJM8tD1PpcNAUBm6ZArJQt8MPJUpWy
-
-
-//   https://app.ticketmaster.com//discovery/v2/classifications/{keyword}.json?size=1&apikey=hMNJM8tD1PpcNAUBm6ZArJQt8MPJUpWy
