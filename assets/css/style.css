@@ -1,0 +1,64 @@
+:root {
+    --dark-teal: #18978f;
+    --light-teal: #54bab9;
+    /* DARK MODE */
+    --dark-grey: #2c3639;
+    --light-grey: #3f4e4f;
+    --light-word-color: white;
+    /* LIGHT MODE */
+    --dark-beige: #e9dac1;
+    --light-beige: #f7ecde;
+    --dark-word-color: #2c3639;
+}
+
+/*///////////////Universal Selectors///////////////////////*/
+
+/*/ //////////////Color Classes/////////////////////////////*/
+
+.color-dark-bg {
+    background-color: var(--dark-grey);
+}
+
+.color-lt-gy-bg {
+    background-color: var(--light-grey);
+}
+
+.color-info {
+    background-color: var(--light-grey);
+    color: var(--light-word-color);
+    border-color: var(--dark-teal);
+}
+
+.color-title {
+    background-color: var(--dark-teal);
+    color: var(--light-word-color);
+}
+
+/*/ //////////////Custom Utilities//////////////////////////*/
+
+.border-rd {
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 25px;
+    padding: 0.6rem 0.85rem;
+}
+
+/*/ //////////////Song Selection Buttons////////////////////*/
+
+.song-button {
+    background-color: var(--light-teal);
+    color: var(--light-word-color);
+    padding: 1rem;
+    margin: 1.5rem;
+    border-radius: 25px;
+    min-width: 50%;
+}
+
+/*/ //////////////Song Information Detail Box///////////////*/
+#song-detail {
+    min-height: 50vh;
+}
+
+#song-detail-2 {
+    min-height: 18vh;
+}
