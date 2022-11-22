@@ -55,10 +55,28 @@
 }
 
 /*/ //////////////Song Information Detail Box///////////////*/
+
 #song-detail {
     min-height: 50vh;
 }
 
 #song-detail-2 {
     min-height: 18vh;
+}
+
+i:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+textarea:focus-visible {
+    outline: none;
+}
+
+/*/ //////////////Button Spacing Small Screens///////////////*/
+
+@media screen and (max-width: 1024px) {
+    .song-button {
+        margin: 0.5rem;
+    }
 }
