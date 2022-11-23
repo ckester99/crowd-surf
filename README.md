@@ -1,7 +1,7 @@
 # Crowd-surf
 
-## This application by Velvet Player will be a dashboard that allows the user to view the top 10 trending songs for the day. The user will be able to click on each song to access information about the song and artists from wikipedia. Users are given detailed information about each song, including band biography, lyrics, release date, etc. 
-Users will have no problem keeping up with the latest hits, staying educated about the latest music trends, as well as exploring new music options. 
+## This application by Velvet Player will be a dashboard that allows the user to view the top 10 trending songs for the day. The user will be able to click on each song to access information about the song and artists and see upcoming concert information on the artist. Users are given detailed information about each song, including band biography, lyrics, release date, etc. 
+Users will have no problem keeping up with the latest hits, staying educated about the latest music trends, as well as exploring new music options with info on live events. 
 
 ## How to Install and Run the Project. ...
 
