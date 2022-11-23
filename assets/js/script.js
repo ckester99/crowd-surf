@@ -17,11 +17,11 @@ $ .ajax({
 });
 
 // save comments to local storage 
-$(".save-btn").on('click',function () {
-    var userInput = $(this).siblings('.user-notes').val();
+$("#save-btn").on('click',function () {
+    var userInput = $(this).siblings('#user-notes').val();
     var userDesc = $(this).parent().attr('id');
     localStorage.setItem(userDesc,userInput);
   });
- $("#song-detail-2 .user-notes").val(localStorage.getItem("song-detail-2"))
+ $("#song-detail-2 #user-notes").val(localStorage.getItem("song-detail-2"))
 
 
