@@ -11,8 +11,6 @@
     --dark-word-color: #2c3639;
 }
 
-/*///////////////Universal Selectors///////////////////////*/
-
 /*/ //////////////Color Classes/////////////////////////////*/
 
 .color-dark-bg {
@@ -43,6 +41,18 @@
     padding: 0.6rem 0.85rem;
 }
 
+/*////////////////Navbar////////////////////////////////////*/
+
+nav i {
+    color: var(--light-teal);
+    text-shadow: var(--light-word-color) 3px -3px;
+}
+
+h1 {
+    color: var(--light-word-color);
+    text-shadow: var(--light-teal) -3px 3px;
+}
+
 /*/ //////////////Song Selection Buttons////////////////////*/
 
 .song-button {
@@ -64,7 +74,7 @@
     min-height: 18vh;
 }
 
-i:hover {
+#song-detail-2 i:hover {
     opacity: 0.7;
     cursor: pointer;
 }
