@@ -35,8 +35,8 @@ function eventResults() {
       for (const showInfo of json._embedded.events) {
         let eventName = showInfo.name;
         console.log(eventName);
-        let eventDate = showInfo.dates.initialStartDate.localDate;
-        let eventTime = showInfo.dates.initialStartDate.localTime;
+        let eventDate = showInfo.dates.start.localDate;
+        let eventTime = showInfo.dates.start.localTime;
         let contentHTML = `
                 <div class="p-4 card">
                 <h3>${eventName}</h3>
