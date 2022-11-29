@@ -11,6 +11,9 @@
     --dark-word-color: #2c3639;
 }
 
+#title-font{
+    font-family: 'Rubik Glitch', cursive;
+}
 /*/ //////////////Color Classes/////////////////////////////*/
 
 .color-dark-bg {
