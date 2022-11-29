@@ -1,6 +1,7 @@
 function getBoredResponse() {
   
 
+<<<<<<< HEAD
     var requestUrl = 'http://www.boredapi.com/api/activity?participants=1';
   
     // AJAX call requires a third party library, jQuery
@@ -17,6 +18,29 @@ function getBoredResponse() {
       });
   
     }
+=======
+function getBoredResponse() {
+  
+  // var spotifyAuthToken = 'BQA6Ibri0327o0YIhdgBapB8VvZ6CgJxoaz_84iXy9iF65Hz4dEg2eaElf7NJYEgSCeXFD9aZ0J2a2cuEodWYgbh3q0PlUQ09hMx7R2GdjCvvFvEziKzmKkYOuMp2IN-UlynME7e4Ayr19XObNbLY7zNevsmD90-tDCpSzGUeSOrNCA';
+  var requestUrl = 'http://www.boredapi.com/api/activity?participants=1';
+
+  // AJAX call requires a third party library, jQuery
+  $.ajax({
+    type: "GET",
+    
+    url: requestUrl,
+    async: true,
+    dataType: "json", 
+    success: function (json) {
+      console.log(json.activity, json.type, json.participants);
+    }
+      //   console.log(response.status);
+    });
+
+  }
+
+
+>>>>>>> 2c79bbe72c623f0aa5ff165d62191b57ac6234e4
 
 function eventResults() {
     $.ajax({
