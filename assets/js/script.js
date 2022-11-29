@@ -1,21 +1,25 @@
-var spotifyAccessToken =
-    "BQDvhECod1TsUnLgGncLbiKtXmcAuB3SVi4gb5B4jmY97XwYXdK2vobd2ZdedqIKJJvhaLXRCooAL5OtVquizKWH1LVjiSmgoCdxddMj5kGNW7AVhnXl5eMTNS8u";
-var requestUrl =
-    "https://api.spotify.com/v1/playlists/37i9dQZEVXbMDoHDwVN2tF/tracks?limit=5&apikey=BQDvhECod1TsUnLgGncLbiKtXmcAuB3SVi4gb5B4jmY97XwYXdK2vobd2ZdedqIKJJvhaLXRCooAL5OtVquizKWH1LVjiSmgoCdxddMj5kGNW7AVhnXl5eMTNS8u";
-function getSpotifyResults() {
-    $.ajax({
-        type: "GET",
-        url: requestUrl,
-        async: true,
-        dataType: "json",
-        // headers: {
-        // 	'Authorization': 'Bearer ' + spotifyAccessToken
-        // },
-        success: function (json) {
-            console.log(response);
-        },
+
+function getBoredResponse() {
+  
+  // var spotifyAuthToken = 'BQA6Ibri0327o0YIhdgBapB8VvZ6CgJxoaz_84iXy9iF65Hz4dEg2eaElf7NJYEgSCeXFD9aZ0J2a2cuEodWYgbh3q0PlUQ09hMx7R2GdjCvvFvEziKzmKkYOuMp2IN-UlynME7e4Ayr19XObNbLY7zNevsmD90-tDCpSzGUeSOrNCA';
+  var requestUrl = 'http://www.boredapi.com/api/activity?participants=1';
+
+  // AJAX call requires a third party library, jQuery
+  $.ajax({
+    type: "GET",
+    
+    url: requestUrl,
+    async: true,
+    dataType: "json", 
+    success: function (json) {
+      console.log(json.activity, json.type, json.participants);
+    }
+      //   console.log(response.status);
     });
-}
+
+  }
+
+
 
 function eventResults() {
     $.ajax({
@@ -52,6 +56,7 @@ function eventResults() {
     });
 }
 eventResults();
+getBoredResponse();
 
 // save comments to local storage
 $("#save-btn").on("click", function () {
