@@ -49,6 +49,6 @@ If you found an issue or would like to submit an improvement to this project, pl
 
 - light and dark mode
 - Offical videos for songs
-- User profile sign-in for soundcloud
+- User profile sign-in for Spotify
 - Song lyrics
 - Genre selection
