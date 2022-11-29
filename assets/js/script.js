@@ -12,7 +12,7 @@ function getBoredResponse() {
     async: true,
     dataType: "json", 
     success: function (json) {
-      console.log(json.activity);
+      console.log(json.activity, json.type, json.participants);
     }
       //   console.log(response.status);
     });
