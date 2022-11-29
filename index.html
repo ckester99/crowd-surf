@@ -6,9 +6,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>CrowdSurf</title>
         <script src="https://cdn.tailwindcss.com"></script>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap" rel="stylesheet" />
         <link rel="stylesheet" href="./assets/css/style.css" />
         <script
             src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
@@ -19,9 +19,10 @@
         <script src="https://kit.fontawesome.com/a6bc5d1964.js" crossorigin="anonymous"></script>
     </head>
     <body class="color-dark-bg">
-        <nav class="h-20 flex flex-row items-center flex-start color-title ">
-                <i class="fa-solid fa-house-tsunami pl-4 fa-4x"></i>
-                <h1 class="pl-6 text-4xl" id="title-font">CROWDSURF</h1>
+        <nav class="h-20 relative flex flex-row items-center flex-start color-title">
+            <i class="fa-solid fa-house-tsunami pl-4 fa-4x"></i>
+            <h1 class="pl-6 text-4xl">CROWDSURF</h1>
+            <img src="" alt="Velvet Players Logo" class="absolute right-4" />
         </nav>
 
         <div class="grid grid-cols-3 mt-4 gap-2 px-4">
@@ -45,15 +46,15 @@
 
             <div class="col-span-3 lg:col-span-2">
                 <div id="song-detail" class="font-mono flex flex-col justify-center color-info border-rd">
+                    <h2 class="font-bold text-center text-3xl">Tour Dates:</h2>
                 </div>
 
-
                 <form id="song-detail-2" class="mt-4 color-info border-rd relative">
-                    <i class="absolute right-0 bottom-0 mb-6 mr-4 bg-transparent fa-regular fa-save fa-xl" id-"save-btn"> </i>
+                    <i class="absolute right-0 bottom-0 mb-6 mr-4 bg-transparent fa-regular fa-save fa-xl" id-"save-btn"></i>
                     <textarea
                         name="notes"
                         id="user-notes"
-                        rows="10"
+                        rows="7"
                         class="w-full bg-transparent"
                         style="resize: none"
                         placeholder="Enter notes here!"></textarea>
