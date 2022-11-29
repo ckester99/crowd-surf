@@ -1,6 +1,6 @@
 # CrowdSurf!
 
-## This music player by Velvet Player is a dashboard that allows the user to view the top 10 global trending songs for the week; CrowdSurf! also, provides an option for users to purchase tickets for upcoming events staring trending artists of their choice.
+## This music player by Velvet Player is a dashboard that allows the user to view trending songs for the week; CrowdSurf! also, provides an option for users to purchase tickets for upcoming events staring trending artists of their choice.
 
 - Users will have no problem keeping up with the latest hits as well as exploring new music options by just visiting CrowdSurf!.
 - The user will be able to click on each song to access information about the trending artists and tickets for upcoming events from the artist via Ticketmaster.
@@ -20,6 +20,8 @@ Simply visit our site and experience the magic!!!!
 - Gitignore
 
 ## What CrowdSurf! looks like
+
+<img width="2036" alt="Screenshot 2022-11-29 at 6 07 26 PM" src="https://user-images.githubusercontent.com/114961971/204671020-085f60e7-2151-41e8-adce-ab6a0e2ad74c.png">
 
 ## Repository link
 
