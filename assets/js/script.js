@@ -16,9 +16,11 @@ function eventResults() {
         let eventDate = showInfo.dates.initialStartDate.localDate;
         let eventTime = showInfo.dates.initialStartDate.localTime;
         let contentHTML = `
+                <div class="p-4 card">
                 <h3>${eventName}</h3>
                 <p>${eventDate}</p>
                 <p>${eventTime}</p>
+                </div>
                 `;
         $("#song-detail").append(contentHTML);
       }
