@@ -31,6 +31,21 @@ function eventResults() {
 }
 eventResults();
 
+// var spotifyApiKey = 'BQDgsQaBR5YLd3eT4c5L3kEAPqnRTlPlgmGMxcqT7acLcpjHdsCzE9g0RKZVDSuzu9SIN_VW6kElRxrfjNzZOuF5bckqcnwKWIC2GDX';
+function getSpotifyResults() {
+  $.ajax[{
+    type: "GET",
+    url: "https://api.spotify.com/v1/playlists/37i9dQZEVXbMDoHDwVN2tF/tracks",
+    async: true, 
+    dataType: "json",
+    authorization: 'BQDgsQaBR5YLd3eT4c5L3kEAPqnRTlPlgmGMxcqT7acLcpjHdsCzE9g0RKZVDSuzu9SIN_VW6kElRxrfjNzZOuF5bckqcnwKWIC2GDX',
+    success: function (json) {
+      console.log(json.total.limit)
+
+    }
+  }]
+ 
+}
 
 // save comments to local storage 
 $("#save-btn").on('click',function () {
