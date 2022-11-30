@@ -19,7 +19,12 @@ function getBoredResponse() {
 
   }
 
-
+$("#artist-search").on("click", function(e){
+    e.preventDefault();
+    var artist = $("#artist-input").val();
+    $("#artist-input").val("");
+    console.log(artist);
+})
 
 function eventResults() {
     $.ajax({
