@@ -24,10 +24,28 @@
             <h1 class="pl-6 text-4xl">CROWDSURF</h1>
             <img src="./assets/images/velvet-player.jpg" height="40px" width="135px" alt="Velvet Players Logo" class="absolute right-4" />
         </nav>
+        <!-- button to pull up modal with instructions -->
         <div>
             <input type="text" name="textie" id="artist-input" />
-            <button class="btn btn-primary" type="button" id="artist-search">
+            <button
+                class="bg-teal-500 text-white rounded-md px-8 py-2 text-base font-medium hover:bg-pink-600 focus:outline-none focus:ring-2 focus:ring-grey-300"
+                id="artist-search"
+            >
                 Search
+            </button>
+        </div>
+        <!--Overlay Effect for modal-->
+        <div
+        class="fixed hidden inset-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-full w-full"
+        id="instruct-modal"
+        ></div>
+        <div class="w-80 mx-auto mt-5 p-7">
+            
+            <button
+                class="bg-teal-500 text-white rounded-md px-8 py-2 text-base font-medium hover:bg-pink-600 focus:outline-none focus:ring-2 focus:ring-grey-300"
+                id="open-btn"
+            >
+                Instructions
             </button>
         </div>
         <div class="grid grid-cols-3 mt-4 gap-2 px-4">
