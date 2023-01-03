@@ -17,7 +17,7 @@ var artist;
     }
     //   console.log(response.status);
   });
-  
+  // ticketmaster API
   $("#artist-search").on("click", function(){
     artist = $("#artist-input").val();
     $.ajax({
@@ -51,6 +51,7 @@ var artist;
         },
         error: function (xhr, status, err) {},
     });
+
 // save comments to local storage
 $("#save-btn").on("click", function () {
     var userInput = $(this).siblings("#user-notes").val();
@@ -58,7 +59,33 @@ $("#save-btn").on("click", function () {
     localStorage.setItem(userDesc, userInput);
 })
 });
+
 $("#song-detail-2 #user-notes").val(localStorage.getItem("song-detail-2"));
+
+// create modal for instructions
+
+let modal = document.getElementById("modal-overlay");
+
+let btn = document.getElementById("instruct-modal");
+
+let button = document.getElementById("close-modal");
+
+// Will open modal when clicked
+btn.onclick = function() {
+    modal.style.display = "block";
+    }
+
+    // Will close modal when clicked
+button.onclick = function() {
+    modal.style.display = "none";
+    }
+
+// Will close the modal if the user clicks outside of it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }}
+        
 
 
 
