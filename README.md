@@ -21,7 +21,7 @@ Simply visit our site and experience the magic!!!!
 
 ## What CrowdSurf! looks like
 
-<img width="2036" alt="Screenshot 2022-11-29 at 6 07 26 PM" src="https://user-images.githubusercontent.com/114961971/204671020-085f60e7-2151-41e8-adce-ab6a0e2ad74c.png">
+![image](./assets/images/surf-screenshot.png)
 
 ## Repository link
 

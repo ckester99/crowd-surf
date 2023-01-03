@@ -93,3 +93,14 @@ textarea:focus-visible {
         margin: 0.5rem;
     }
 }
+
+/*/ //////////////SEARCH INPUT SPACING///////////////*/
+#artist-input {
+    margin-left: 6rem;
+    margin-top: 3rem;
+}
+
+/*/ //////////////MODAL SPACING///////////////*/
+#instruct-modal {
+    margin-left: 5.7rem;
+}
