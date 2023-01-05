@@ -1,56 +1,104 @@
-# CrowdSurf!
+# Crowd Surf
+  <a id="readme-top"></a>
+  
+  
+  <details close> 
+  <summary> Table of Contents</summary><br/>
+  
+  - [Title](#title)
+  - [License](#license)
+  - [About the Project](#about-the-Project)
+    - [Built With](#built-with)
+    - [Visuals](#visuals)
+  - [Access](#access)
+  - [Usage](#usage)
+  - [Contributions](#contributions)
+  - [Contact](#contact)
+  - [Future Features](#future-features)
+  
 
-## This music player by Velvet Player is a dashboard that allows the user to view trending songs for the week; CrowdSurf! also, provides an option for users to purchase tickets for upcoming events staring trending artists of their choice.
+  </details>
 
-- Users will have no problem keeping up with the latest hits as well as exploring new music options by just visiting CrowdSurf!.
-- The user will be able to click on each song to access information about the trending artists and tickets for upcoming events from the artist via Ticketmaster.
-- The page is updated daily with the hottest new music across all genres; This is a about to make notes and store information about songs that the users likes or want to revisit.
+  ## License
+  
+  [![License: Apache License v2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+    
+  
 
-## How to install, sign-up, or log-in
+---
 
-Simply visit our site and experience the magic!!!!
+## About the Project
 
-## Technologies
+  Hi, we are the Velvet Players, thank you for your interest in our project! Crowd Surf is a dashboard that allows the user to view top streaming songs of their favorite artists. Crowd Surf also provides an option for users to search for upcoming shows from the artists the users search.
 
-- Spotify
-- Ticketmaster
-- javaScript
-- HTML
-- CSS
-- Gitignore
+  
 
-## What CrowdSurf! looks like
+  ## Built With 
 
-![image](./assets/images/surf-screenshot.png)
+  ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
-## Repository link
+    
+  ## Visuals
+  
+  
 
-[CrowdSurf!](https://github.com/ckester99/crowd-surf.git)
 
-## How to Use CrowdSurf!
+  ![Alt full site image](./assets/images/Screen%20Shot%202023-01-03%20at%2010.29.35%20PM.png)
 
-- Visit the home page and enjoy the top trending songs!
 
-* Users have the options to save songs by simply clicking on the button containing the song.
-* The window below the song buttons will show upcoming events featuring the selected trending artist and provider an option to purchase tickets.
-* The last window allows make notes based on as well as detailed information and good vibes; these notes about specific songs will remain accessible and users can revisit them and enjoy them anytime.
 
-## Include Credits...
+
+---
+
+<p align="middle">(<a href="#readme-top">back to top</a>)</p>
+
+
+## Access
+
+   Here is the link to the repository https://github.com/BogartDME/crowd-surf-music-app
+
+
+   Here is the link to the deployed application https://bogartdme.github.io/crowd-surf-music-app/
+  
+
+
+
+
+## Usage
+
+  The user will search an artist they are interested in and the app will show them their top five songs on Spotify. In addition the user will be presented with ticketmasters upcoming events for the searched artist. The user will be able to make notes about the artist at the bottom and save the notes. 
+
+
+
+
+## Contributors
 
 - [Maia Ferrer](https://github.com/maiaferrer)
-- [Christian Kester](https://github.com/ckester99)
-- [Edwin Pietrowski](https://github.com/BogartDME)
-- [Jason White](https://github.com/JasonAdalWhite)
 - [Russ Cherry](https://github.com/RussC22)
+- [Christian Kester](https://github.com/ckester99)
+- [Jason White](https://github.com/JasonAdalWhite)
+- [Edwin Pietrowski](https://github.com/BogartDME)
 
-### Find a bug?
 
-If you found an issue or would like to submit an improvement to this project, please submit an issue using the issues tab above. If you would like to submit a PR with a fix, reference the issue you creatued!
 
-### Future Features
+
+## Contact
+
+  If you would like to contact us with suggestions or would like to collaborate on a project feel free to contact us at our githubs linked above.
+
+
+
+
+## Future Features
 
 - light and dark mode
 - Offical videos for songs
 - User profile sign-in for Spotify
 - Song lyrics
 - Genre selection
+
+
+
+
+  <p align="middle">(<a href="#readme-top">back to top</a>)</p>
+
