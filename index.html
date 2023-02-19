@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="./assets/images/surf-logo.jpeg">
+    <link rel="icon" href="./assets/images/surf-logo.jpeg" />
     <title>CrowdSurf</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -28,7 +28,7 @@
   </head>
   <body class="color-dark-bg">
     <nav
-      class="h-20 relative flex flex-row items-center flex-start color-title"
+      class="h-20 relative flex flex-row items-center flex-start color-title shadow-lg"
     >
       <i class="fa-solid fa-house-tsunami pl-4 fa-4x"></i>
       <h1 class="pl-6 text-4xl">CROWDSURF</h1>
@@ -40,78 +40,94 @@
         class="absolute right-4"
       />
     </nav>
-    <div>
-      <input type="text" name="textie" id="artist-input" />
-      <button
-        class="bg-teal-500 text-white rounded-md px-8 py-2 text-base font-medium hover:bg-pink-600 focus:outline-none focus:ring-2 focus:ring-grey-300"
-        id="artist-search">
-        Search
-      </button>
-    </div>
-    <!-- button to pull up modal with instructions -->
-    <div class="mx-auto mt-4 p-1">
-      <button
-        class="bg-teal-500 text-white rounded-md px-8 py-2 text-base font-medium hover:bg-pink-600 focus:outline-none focus:ring-2 focus:ring-grey-300"
-        id="instruct-modal"
-      >
-        <!-- open-btn -->
+    <div class="p-10">
+      <!-- Search bar -->
+      <div class="items-center">
+        <div class="mb-3 xl:w-96">
+          <div
+            class="input-group relative flex flex-wrap items-stretch w-full mb-4"
+          >
+            <input
+              type="search"
+              name="textie"
+              id="artist-input"
+              class="input-group relative flex flex-wrap items-stretch w-1/2 rounded-md"
+            />
+            <button
+              class="btn px-6 py-2 inline-block bg-teal-500 text-white rounded-md border-2 text-xs font-medium leading-tight transition ease-in-out hover:bg-pink-600 focus:outline-none focus:ring-2 focus:ring-grey-300"
+              id="artist-search"
+            >
+              Search
+            </button>
+          </div>
+        </div>
+      </div>
 
-        Instructions
-      </button>
-      <!--Overlay Effect for modal-->
-      <div
-        class="fixed hidden inset-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-full w-full"
-        id="modal-overlay"
-      >
-        <!-- my-modal -->
-        <div
-          class="relative top-20 mx-auto p-5 border w-96 shadow-lg rounded-md bg-white"
+      <div class="mx-auto mt-4 p-1">
+        <button
+          class="bg-teal-500 text-white rounded-md px-8 py-2 text-base font-medium hover:bg-pink-600 focus:outline-none focus:ring-2 focus:ring-grey-300"
+          id="instruct-modal"
         >
-          <div class="mt-3 text-center">
-            
-            <div class="mt-3 text-center"></div>
-            <div
-              class="mx-auto flex items-center justify-center h-12 w-12">
-              <i class="fa-solid fa-house-tsunami pl-4 fa-4x"></i>
-            </div>
-            <h3 class="text-lg leading-6 font-medium text-gray-900">
-              <br>Welcome to CROWDSURF!
-            </h3>
-            <div class="mt-2 px-7 py-3">
-              <p class="text-sm text-gray-500">
-                Search an artist to find their tour dates and see their top five songs on Spotify<br>
-                On the bottom of the page once you have searched an artist you can save notes on them!<br>
-                Enjoy the site, we hope you see your favorite artist live soon!
-              </p>
-            </div>
-            <div class="items-center px-4 py-3">
-              <button
-                id="close-modal"
-                class="px-4 py-2 bg-teal-500 text-white text-base font-medium rounded-md w-full shadow-sm hover:bg-pink-600 focus:outline-none focus:ring-2 focus:ring-green-300"
-              >
-                OK
-              </button>
+          <!-- open-btn -->
+
+          Instructions
+        </button>
+        <!--Overlay Effect for modal-->
+        <div
+          class="fixed hidden inset-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-full w-full"
+          id="modal-overlay"
+        >
+          <!-- my-modal -->
+          <div
+            class="relative top-20 mx-auto p-5 border w-96 shadow-lg rounded-md bg-white"
+          >
+            <div class="mt-3 text-center">
+              <div class="mt-3 text-center"></div>
+              <div class="mx-auto flex items-center justify-center h-12 w-12">
+                <i class="fa-solid fa-house-tsunami pl-4 fa-4x"></i>
+              </div>
+              <h3 class="text-lg leading-6 font-medium text-gray-900">
+                <br />Welcome to CROWDSURF!
+              </h3>
+              <div class="mt-2 px-7 py-3">
+                <p class="text-sm text-gray-500">
+                  Search an artist to find their tour dates and see their top
+                  five songs on Spotify<br />
+                  On the bottom of the page, once you have searched an artist
+                  you can save notes on them!<br />
+                  Enjoy the site, we hope you see your favorite artist live
+                  soon!
+                </p>
+              </div>
+              <div class="items-center px-4 py-3">
+                <button
+                  id="close-modal"
+                  class="px-4 py-2 bg-teal-500 text-white text-base font-medium rounded-md w-full shadow-sm hover:bg-pink-600 focus:outline-none focus:ring-2 focus:ring-green-300"
+                >
+                  OK
+                </button>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="grid grid-cols-3 mt-4 gap-2 px-4">
+    <div class="grid grid-cols-3 mt-4 gap-2 px-4 items-start">
       <div class="flex flex-col col-span-3 lg:col-span-1 justify-center">
         <div class="flex justify-center">
-          <button class="song-button">Song 1</button>
+          <button class="song-button shadow-lg" id="song-1">Song 1</button>
         </div>
         <div class="flex justify-center">
-          <button class="song-button">Song 2</button>
+          <button class="song-button shadow-lg" id="song-2">Song 2</button>
         </div>
         <div class="flex justify-center">
-          <button class="song-button">Song 3</button>
+          <button class="song-button shadow-lg" id="song-3">Song 3</button>
         </div>
         <div class="flex justify-center">
-          <button class="song-button">Song 4</button>
+          <button class="song-button shadow-lg" id="song-4">Song 4</button>
         </div>
         <div class="flex justify-center">
-          <button class="song-button">Song 5</button>
+          <button class="song-button shadow-lg" id="song-5">Song 5</button>
         </div>
       </div>
 
@@ -134,8 +150,9 @@
             rows="7"
             class="w-full bg-transparent"
             style="resize: none"
-            placeholder="Enter notes here!">
-        </textarea>
+            placeholder="Enter notes here!"
+          >
+          </textarea>
         </form>
       </div>
     </div>
